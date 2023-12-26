@@ -45,9 +45,13 @@ h3{
 }
 h1{
     font-size: 25px;
-    color: var(--Yellow);
+    color: var(--Black);
     padding: 10px 0;
     font-weight: 800;
+}
+h1:hover{
+    color: var(--Yellow);
+    transition: 0.5s ease-in-out;
 }
 .details{
     color: var(--Grey);
